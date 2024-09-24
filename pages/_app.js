@@ -7,7 +7,7 @@ import { ToastContainer } from 'react-toastify';
 import { ProjectProvider } from '@/context/projectContext';
 import Navbar from '@/components/Navbar';
 
-// MAIN FUNCTION
+// MAIN FUNCTION_
 export default function App({ Component, pageProps }) {
   return (
     <>
