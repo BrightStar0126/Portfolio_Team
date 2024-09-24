@@ -49,14 +49,15 @@ export default function Navbar() {
       }>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-          <Image
+          {/* <Image
             src={NavLogo}
             width={200}
             height='auto'
             alt='Blockchain & Cie - Logo'
             loading='lazy'
             className='cursor-pointer object-cover'
-          />
+          /> */}
+          <p className='text-[#5651e5] font-extrabold text-lg text-center'>Blockchain<br />Star</p>
         </Link>
 
         <div>
